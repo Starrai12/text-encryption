@@ -1,4 +1,3 @@
-# vuln_scanner/main.py
 import sys
 from scanner import PortScanner
 
@@ -49,4 +48,5 @@ def main():
         print("No known vulnerabilities found in banners.")
 
 if _name_ == "_main_":
+
     main()
